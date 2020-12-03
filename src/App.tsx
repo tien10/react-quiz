@@ -1,5 +1,5 @@
 import React from "react";
-import { GlobalStyle, Wrapper } from "./App.styles";
+// import { GlobalStyle, Wrapper } from "./App.styles";
 import "./App.css";
 
 function App() {
