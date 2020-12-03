@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { GlobalStyle, Wrapper } from "./App.styles";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <GlobalStyle>
+        <Wrapper>
+          <h1>REACT QUIZ</h1>
+          <button>Start</button>
+          <p>Score:</p>
+          <p>Loading Questions...</p>
+          <button>Next Question</button>
+        </Wrapper>
+      </GlobalStyle> */}
+      <div className="container">
+        <h1>REACT QUIZ</h1>
+        <button className="start">Start</button>
+        {/* <p className="score">Score:</p> */}
+        {/* <p>Loading Questions...</p> */}
+        {/* <button className="next">Next Question</button> */}
+      </div>
+    </>
   );
 }
 
